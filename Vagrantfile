@@ -10,8 +10,9 @@ Vagrant.configure(2) do |config|
     elsif RUBY_PLATFORM =~ /mingw|mswin|bccwin|cygwin|emx/
       vb.customize ["modifyvm", :id, '--audio', 'dsound', '--audiocontroller', 'ac97']
     end
-    vb.customize ["modifyvm", :id, "--vram", "64"]
+    vb.customize ["modifyvm", :id, "--vram", "128"]
     vb.customize ["modifyvm", :id, "--usb", "on", "--usbehci", "on"]
+    vb.customize ["setextradata", :id, "CustomVideoMode1", "1920x1080x32"]
     #run VBoxManage list usbhost to get the sd card reader details
 
     vb.customize ["usbfilter", "add", "0",
