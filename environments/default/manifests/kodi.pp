@@ -12,7 +12,7 @@ package { ['virtualbox-guest-utils-nox']:
   ensure => "absent"
 }
 
-package { ['mesa-libgl','virtualbox-guest-utils','vim','xf86-video-vesa','xf86-input-evdev', 'kodi', 'lsb-release', 'xorg-xinit', 'wget', 'curl', 'polkit','xterm','alsa-utils','net-tools','nfs-utils', 'openvpn','unzip','dosfstools','hwinfo']:
+package { ['mesa','virtualbox-guest-utils','vim','xf86-video-vesa','xf86-input-evdev', 'kodi', 'lsb-release', 'xorg-xinit', 'wget', 'curl', 'polkit','xterm','alsa-utils','net-tools','nfs-utils', 'openvpn','unzip','dosfstools','hwinfo']:
   ensure => installed,
 }
 
