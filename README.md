@@ -1,7 +1,7 @@
 ## kodi-dev
 
 A Vagrant VM that can be used for Kodi addon development. The VM also contains all the utilities required to
-[install Arch Linux on a Raspberry Pi](http://blog.monkey.codes/how-to-setup-kodi-on-a-raspberry-pi/).
+[install Arch Linux on a Raspberry Pi](https://johanzietsman.com/how-to-setup-kodi-on-a-raspberry-pi/).
 
 ## Requirements
 *  [VirtualBox](https://www.virtualbox.org/)
